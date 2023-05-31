@@ -10,7 +10,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
-sender_email = "sameeraalahmad112@gmail.com"
+sender_email = "write your email here"
 receiver_email = "winniethepooh20023@gmail.com"
 def message():
    subject = "Unknown Face Detected!"
@@ -30,10 +30,10 @@ def message():
                  
 
 person_directories = {
-    "Kholoud": r"C:\Users\abdul\Downloads\Face_Recognition\Kholoud",
-    "Abdulrahman": r"C:\Users\abdul\Downloads\Face_Recognition\Abdulrahman",
-    "Samira": r"C:\Users\abdul\Downloads\Face_Recognition\Samira",
-    "Noor": r"C:\Users\abdul\Downloads\Face_Recognition\Noor"
+    "person 1": r"person 1 path",
+    "person 2": r"person 2 path",
+    "person 3": r"person 3 path",
+    "person 4": r"person 4 path"
 }
 
 person_face_encodings = {}
